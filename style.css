@@ -1,12 +1,12 @@
 html,
 body {
   font-family: 'Droid Serif', serif;
-  background-color: #cccccc;
-  background: url('file:recursos/band_01.jpg');
+  background-color: black;
+  background: url('file:recursos/band_01.jpg') no-repeat;
   margin: 0; /* to remove the default white margin of body */
   padding: 0; /* to remove the default white margin of body */
-  overflow: auto;
-   }
+  overflow-x: hidden;
+}
 
 .content-slider {
   width: 100%;
@@ -274,6 +274,7 @@ body {
   position: fixed;
   top: 10px;
   left: 1320px;
+  z-index: 2;
 }
 
 .lister {
@@ -305,6 +306,7 @@ li a:hover {
   top: 0;
   padding-left: 1190px;
   padding-top: 28px;
+  z-index: 2;
 }
 
 .logoSimple {
